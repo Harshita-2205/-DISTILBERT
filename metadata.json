@@ -1,0 +1,43 @@
+{
+  "title": "Fine-tuning DistilBERT for IMDB Sentiment Analysis",
+  "developer": "Harshita",
+  "description": "This project demonstrates the process of fine-tuning a pre-trained DistilBERT model for sentiment analysis on the IMDB movie review dataset. The notebook covers data loading, preprocessing, model training, evaluation, and deployment for sentiment prediction.",
+  "tags": [
+    "machine learning",
+    "natural language processing",
+    "sentiment analysis",
+    "DistilBERT",
+    "transformers",
+    "Hugging Face",
+    "Google Colab",
+    "deep learning",
+    "text classification"
+  ],
+  "license": "MIT",
+  "language": "Python",
+  "dataset": "IMDB",
+  "model": "DistilBERT",
+  "library": "transformers",
+  "task": "Text Classification",
+  "abstract": "Sentiment analysis is a crucial task in natural language processing with applications in various domains. This project focuses on fine-tuning DistilBERT, a smaller and faster variant of BERT, to classify movie reviews from the IMDB dataset as positive or negative. The notebook provides a detailed walkthrough of the entire process, from data preparation to model evaluation and deployment using the Hugging Face Transformers library.",
+  "methodology": [
+    "Data Loading and Preprocessing: The IMDB dataset is loaded using the `datasets` library. A subset of the data is selected for training and evaluation. The text data is tokenized using the DistilBERT tokenizer from the `transformers` library.",
+    "Model Fine-tuning: A pre-trained DistilBERT model is loaded and fine-tuned on the training data using the `Trainer` class from the `transformers` library. Hyperparameters such as learning rate, batch size, and number of epochs are configured for optimal performance.",
+    "Model Evaluation: The fine-tuned model is evaluated on the test data using metrics like accuracy, precision, recall, and F1 score. The `evaluate` library is used for computing these metrics.",
+    "Sentiment Prediction: A sentiment analysis pipeline is created using the fine-tuned model. This pipeline allows for predicting the sentiment of new text inputs."
+  ],
+  "results": "The fine-tuned DistilBERT model achieves high accuracy on the IMDB sentiment classification task. The evaluation metrics provide insights into the model's performance, demonstrating its ability to effectively distinguish between positive and negative movie reviews.",
+  "conclusion": "This project demonstrates the effectiveness of fine-tuning DistilBERT for sentiment analysis. The provided code and explanations serve as a valuable resource for understanding and implementing sentiment analysis using the Hugging Face Transformers library. The fine-tuned model can be readily deployed for sentiment prediction in real-world applications.",
+  "keywords": [
+    "sentiment analysis",
+    "DistilBERT",
+    "transformers",
+    "IMDB",
+    "natural language processing",
+    "machine learning",
+    "deep learning",
+    "text classification",
+    "Hugging Face",
+    "Google Colab"
+  ]
+}
